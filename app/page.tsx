@@ -116,7 +116,9 @@ export default function Home() {
                 {course.description}
               </p>
               <div className="flex items-center justify-between border-t border-[#f0ebe5] pt-4 mt-auto">
-                <span className="font-serif text-xl text-black">{course.price}</span>
+                <span className="font-serif text-xl text-black">
+                  {course.price}
+                </span>
                 <a
                   href={`https://wa.me/${SITE_DATA.whatsappNumber}?text=I am interested in ${course.title}`}
                   target="_blank"
@@ -131,18 +133,23 @@ export default function Home() {
       </section>
 
       {/* SECTION: ABOUT */}
-      <section className="py-20 bg-[#f4f1ea] px-6">
+      <section className="py-20 bg-[#fffcf6de] px-6">
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12">
           {/* Placeholder for Image - Add a real image in public/ folder later */}
           <div className="w-64 h-64 bg-[#e5e0d8] shrink-0 rounded-full overflow-hidden relative border-4 border-white shadow-md">
-            <Image src="/profile.jpeg" fill className="object-cover object-center" alt="Profile" />
+            <Image
+              src="/profile.jpeg"
+              fill
+              className="object-cover object-center"
+              alt="Profile"
+            />
           </div>
 
           <div className="text-center md:text-left">
             <h2 className="font-serif text-3xl text-[#2c241b] mb-6">
               About Us
             </h2>
-            <p className="md:text-lg text-[#5d5448] leading-relaxed font-light">
+            <p className="md:text-lg text-[#5d5448] leading-relaxed font-thin">
               {SITE_DATA.aboutText}
             </p>
           </div>
@@ -150,7 +157,7 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-[#2c241b] text-[#FDFBF7] py-12 text-center">
+      <footer className="bg-[#1d1812] text-[#FDFBF7] py-12 text-center">
         <p className="font-serif text-2xl mb-4">{SITE_DATA.name}</p>
         <p className="text-sm opacity-60">© 2025 All rights reserved.</p>
       </footer>
