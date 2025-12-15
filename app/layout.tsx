@@ -1,20 +1,9 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Lato } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-serif",
-});
-const lato = Lato({
-  weight: ["400", "700"],
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
-
 export const metadata: Metadata = {
-  title: "Vedic Astrology & Courses",
-  description: "Learn ancient wisdom.",
+  title: "Cosmic Mirror",
+  description: "Cosmic Mirror is your sacred space for spiritual guidance and self-discovery. Explore the wisdom of Tarot, personalized chart analysis, crystal healing, and holistic practices designed to align your mind, body, and soul. Whether you seek clarity, healing, or personal growth, Cosmic Mirror reflects your inner universe and helps you navigate life with insight and balance.",
 };
 
 export default function RootLayout({
@@ -22,11 +11,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body
-        className={`${playfair.variable} ${lato.variable} bg-[#FDFBF7] text-gray-900`}
-      >
-        {children}
-      </body>
+      <body className="bg-[#FDFBF7] text-gray-900">{children}</body>
     </html>
   );
 }
