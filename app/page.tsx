@@ -116,7 +116,7 @@ export default function Home() {
                 {course.description}
               </p>
               <div className="flex items-center justify-between border-t border-[#f0ebe5] pt-4 mt-auto">
-                <span className="font-serif text-xl">{course.price}</span>
+                <span className="font-serif text-xl text-black">{course.price}</span>
                 <a
                   href={`https://wa.me/${SITE_DATA.whatsappNumber}?text=I am interested in ${course.title}`}
                   target="_blank"
