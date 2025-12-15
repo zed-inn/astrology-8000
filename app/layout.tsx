@@ -7,7 +7,7 @@ const playfair = Playfair_Display({
   variable: "--font-serif",
 });
 const lato = Lato({
-  weight: ["100", "400", "700"],
+  weight: ["400", "700"],
   subsets: ["latin"],
   variable: "--font-sans",
 });

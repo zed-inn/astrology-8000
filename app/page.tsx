@@ -149,7 +149,7 @@ export default function Home() {
             <h2 className="font-serif text-3xl text-[#2c241b] mb-6">
               About Us
             </h2>
-            <p className="md:text-lg text-[#5d5448] leading-relaxed font-thin">
+            <p className="md:text-lg text-[#5d5448] leading-relaxed font-light">
               {SITE_DATA.aboutText}
             </p>
           </div>
