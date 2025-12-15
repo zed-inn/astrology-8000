@@ -6,7 +6,7 @@ const SITE_DATA = {
   about:
     "Cosmic Mirror is your sacred space for spiritual guidance and self-discovery. Explore the wisdom of Tarot, personalized chart analysis, crystal healing, and holistic practices designed to align your mind, body, and soul. Whether you seek clarity, healing, or personal growth, Cosmic Mirror reflects your inner universe and helps you navigate life with insight and balance.",
   tagline: "Reflecting Your Destiny Through the Stars",
-  whatsappNumber: "917357075785",
+  whatsappNumber: "447919557494",
   aboutText:
     "At Cosmic Mirror, we are here to guide, heal, and uplift. I, Kaarthika Iyer, with Saroj, have been divinely guided since childhood, receiving spiritual downloads that inspire us to help others rise above darkness, negativity, and emotional struggles. Through Tarot, crystal healing, reiki healing and chart analysis, we channel universal and mystical energy to support every soul on their journey toward clarity, balance, and self-discovery. Our purpose is to reflect the universe within you, illuminate your path, and empower you to embrace your highest potential.",
 };
