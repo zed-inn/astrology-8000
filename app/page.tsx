@@ -95,7 +95,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-[#FDFBF7]/90 backdrop-blur-md border-b border-[#e5e0d8] px-6 py-4">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <span
-            className={`text-xl font-bold tracking-widest text-[#2c241b] ${playfair.className}`}
+            className={`text-xl font-bold tracking-widest text-[#2c241b] whitespace-nowrap ${playfair.className}`}
           >
             COSMIC MIRROR
           </span>
@@ -115,7 +115,7 @@ export default function Home() {
           </div>
           <a
             href={`https://wa.me/${SITE_DATA.whatsappNumber}`}
-            className="bg-[#2c241b] text-[#FDFBF7] px-5 py-2 rounded-sm text-xs uppercase tracking-widest hover:bg-[#4a3e31]"
+            className="bg-[#2c241b] text-[#FDFBF7] px-5 py-2 rounded-sm text-xs uppercase tracking-widest hover:bg-[#4a3e31] whitespace-nowrap"
           >
             Book Now
           </a>
