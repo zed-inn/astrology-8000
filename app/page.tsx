@@ -95,7 +95,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-[#FDFBF7]/90 backdrop-blur-md border-b border-[#e5e0d8] px-6 py-4">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <span
-            className={`text-xl font-bold tracking-widest text-[#2c241b] whitespace-nowrap ${playfair.className}`}
+            className={`md:text-lg lg:text-xl font-bold tracking-widest text-[#2c241b] whitespace-nowrap ${playfair.className}`}
           >
             COSMIC MIRROR
           </span>
