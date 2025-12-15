@@ -42,9 +42,9 @@ const COURSES = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen font-sans">
+    <main className="min-h-screen font-sans bg-white">
       {/* SECTION: HERO - TEXTURE BALANCED WITH READABILITY */}
-      <section className="relative h-[80vh] flex items-center justify-center text-center px-4 overflow-hidden bg-[#FDFBF7]">
+      <section className="relative h-[80vh] min-h-136 flex items-center justify-center text-center px-4 overflow-hidden bg-[#FDFBF7]">
         {/* ---> BACKGROUND LAYER <--- */}
         <div className="absolute inset-0 z-0">
           {/* 1. The Texture: Low opacity, Grayscale. It acts like a watermark. */}
