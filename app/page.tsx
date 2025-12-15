@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <main className="min-h-screen font-sans bg-white">
       {/* SECTION: HERO - TEXTURE BALANCED WITH READABILITY */}
-      <section className="relative h-[80vh] min-h-136 flex items-center justify-center text-center px-4 overflow-hidden bg-[#FDFBF7]">
+      <section className="relative h-screen min-h-136 flex items-center justify-center text-center px-4 overflow-hidden bg-[#FDFBF7]">
         {/* ---> BACKGROUND LAYER <--- */}
         <div className="absolute inset-0 z-0">
           {/* 1. The Texture: Low opacity, Grayscale. It acts like a watermark. */}
@@ -52,13 +52,13 @@ export default function Home() {
             src="/cosmic-bg.jpg"
             alt="Cosmic texture"
             fill
-            className="object-cover opacity-15 grayscale contrast-125"
+            className="object-cover opacity-22 grayscale contrast-125"
             priority
           />
 
           {/* 2. The Spotlight Effect (Crucial): */}
           {/* This radial gradient makes the CENTER solid beige (clean for text) and fades to transparent at edges */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#FDFBF7] via-[#FDFBF7]/80 to-transparent"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,var(--tw-gradient-stops))] from-[#FDFBF7] via-[#FDFBF7]/80 to-transparent"></div>
         </div>
 
         {/* ---> CONTENT LAYER <--- */}
