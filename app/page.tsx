@@ -260,7 +260,7 @@ export default function Home() {
           <div className="h-1 w-20 bg-[#d4af37] mx-auto mt-6"></div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {COURSES.map((course) => (
             <div
               key={course.id}
