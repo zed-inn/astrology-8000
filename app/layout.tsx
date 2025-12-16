@@ -2,8 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Cosmic Mirror",
-  description: "Cosmic Mirror is your sacred space for spiritual guidance and self-discovery. Explore the wisdom of Tarot, personalized chart analysis, crystal healing, and holistic practices designed to align your mind, body, and soul. Whether you seek clarity, healing, or personal growth, Cosmic Mirror reflects your inner universe and helps you navigate life with insight and balance.",
+  title: "Cosmic Mirror | Vedic Astrology, Tarot & Healing",
+  description:
+    "Your sacred space for spiritual guidance, Tarot, and personalized chart analysis. Guided by Kaarthika Iyer & Saroj.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

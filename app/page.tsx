@@ -1,11 +1,9 @@
 import Image from "next/image";
 import { Playfair_Display, Lato } from "next/font/google";
 
-// --- FONTS ---
 const playfair = Playfair_Display({ subsets: ["latin"] });
 const lato = Lato({ weight: ["400", "700"], subsets: ["latin"] });
 
-// --- 1. CONFIGURATION ---
 const SITE_DATA = {
   name: "Cosmic Mirror",
   tagline: "Your Sacred Space for Spiritual Guidance & Self-Discovery",
@@ -23,7 +21,6 @@ const SITE_DATA = {
     youtube: "https://youtube.com",
   },
 
-  // DINESH'S TEXT INSERTED HERE
   aboutTitle: "Our Purpose",
   aboutText:
     "At Cosmic Mirror, we are here to guide, heal, and uplift. I, Kaarthika Iyer, with Saroj, have been divinely guided since childhood, receiving spiritual downloads that inspire us to help others rise above darkness, negativity, and emotional struggles.",
@@ -31,7 +28,6 @@ const SITE_DATA = {
     "Through Tarot, crystal healing, reiki healing, and chart analysis, we channel universal and mystical energy to support every soul on their journey toward clarity, balance, and self-discovery. Our purpose is to reflect the universe within you, illuminate your path, and empower you to embrace your highest potential.",
 };
 
-// Updated Services based on the text (Tarot, Reiki, Charts)
 const COURSES = [
   {
     id: 1,
@@ -75,7 +71,6 @@ const COURSES = [
   },
 ];
 
-// --- 2. ICONS ---
 const Icons = {
   Instagram: () => (
     <svg fill="currentColor" viewBox="0 0 24 24" className="w-5 h-5">
@@ -219,7 +214,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* --- ABOUT SECTION (Updated with Dinesh's Text) --- */}
+      {/* --- ABOUT SECTION --- */}
       <section id="about" className="py-24 px-6 bg-[#f7f4ef]">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
           <div className="w-full md:w-1/2 relative h-[500px] border-4 border-white shadow-xl">
@@ -253,7 +248,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* --- SERVICES SECTION (Renamed from Courses to match 'Healing/Tarot') --- */}
+      {/* --- SERVICES SECTION --- */}
       <section id="services" className="py-24 px-6 max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className={`text-4xl text-[#2c241b] mb-4 ${playfair.className}`}>
